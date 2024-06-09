@@ -1,6 +1,6 @@
 // Preload images
 const preloadImages = () => {
-    for (let i = 1; i <= 11; i++) {
+    for (let i = 1; i < 11; i++) {
         const img = new Image();
         img.src = `images/${i}.png`;
     }
