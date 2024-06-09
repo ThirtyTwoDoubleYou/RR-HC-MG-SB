@@ -30,7 +30,9 @@ function updateScores() {
 
     // Get the players container
     const container = document.querySelector('.players');
-    container.innerHTML = ''; // Clear the container
+
+    // Clear the container
+    container.innerHTML = '';
 
     sortedScores.forEach(([player, score]) => {
         // Select the existing player element
