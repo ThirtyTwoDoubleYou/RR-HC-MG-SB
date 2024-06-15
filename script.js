@@ -20,7 +20,7 @@ function updateScores() {
     const scores = {
         player1: 40,
         player2: 10,
-        player3: 20,
+        player3: 50,
         player4: 20,
         player5: 0
     };
